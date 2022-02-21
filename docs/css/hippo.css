@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,100;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+@import 'animate.css';
+h1 {
+    font-family: 'Bebas Neue';
+    font-size: 2.5rem;
+    color: #313131;
+    letter-spacing: 1px;
+  }
+  h2 {
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
+    color: #313131;
+    letter-spacing: 5%;
+    letter-spacing: 1px;
+  }
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24;
+    color: #313131;
+  }
+  p {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 18;
+    color: #313131;
+  }
+  * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buffer {
+    margin-top: 160px;
+}
+
+.smallBuffer {
+    margin-top: 100px;
+}
+
+/*header*/
+header {
+    grid-area: header;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.logo {
+    cursor: pointer;
+    max-width: 165px;
+    margin-left: 20px;
+    }
+    
+    .nav_links {
+    list-style: none;
+    margin-left: 35px;
+    padding: 35px;
+    text-decoration: none;
+    }
+    
+    .nav_links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    }
+    
+    .nav_links li a {
+    transition: all 0.3s ease 0s;
+    color:black;
+    text-decoration: none;
+    }
+    
+    .nav_links li a:hover {
+    color: rgb(255, 165, 0);
+    border-style: solid;
+    border-color:rgb(255, 165, 0);
+    border-radius: 20px;
+    padding: 5px;
+    }  
+
+    .section-title {
+        background-color: #D8C5FC;
+        height:4rem;
+        display: block;
+        text-align: center;
+        align-items: center;
+        /* align-items: center; */
+        /* padding-left: 60px; */
+    }
+
+    .pl {
+        padding-left: 3rem;
+        align-items: center;
+        /* margin-top:2rem; */
+    }
+    .feature {
+        background-color: #F7F3FE;
+        box-shadow: #D8C5FC;
+        
+    }
+
+    /* hero jumbo */
+
+    .jumbotron  {
+        /* background-image: url("/images/hippo-banner.png");
+        background-size: cover;
+        height:560px; */
+    }
+
+    .footer {
+        grid-area: footer;
+        align-items: center;
+        display: inline-block;
+        place-items:center;
+        margin-bottom: 50%;
+      }
+      .footer_buttons {
+        grid-area: footer;
+        display:inline-block;
+        height:5px;
+        width:5px;
+        padding:25px;
+        opacity: 70%;
+      }
+      .footer_buttons:hover {
+        grid-area: footer;
+        display:inline-block;
+        opacity: 100%;
+        transition: 0.5s
+      }
+    
